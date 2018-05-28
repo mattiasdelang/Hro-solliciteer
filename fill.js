@@ -75,6 +75,9 @@ var nr2 = Math.floor(Math.random() * 10);
 var nr3 = Math.floor(Math.random() * 10);
 var nr4 = Math.floor(Math.random() * 10);
 var nr5 = Math.floor(Math.random() * 100);
+var nr6 = Math.floor(Math.random() * 27) + 1;
+var nr7 = Math.floor(Math.random() * 12) + 1;
+var nr8 = Math.floor(Math.random() * 51) + 1950;
 
 document.getElementById('voornaam').value = voornamen[nr3];
 document.getElementById('achternaam').value = achternamen[nr2];
@@ -85,3 +88,7 @@ document.getElementById('gemeente').value = adressen[nr3].gemeente;
 document.getElementById('telefoonLand').value = '32';
 document.getElementById('telefoonnr').value = telefoonnummers[nr4];
 document.getElementById('email').value = voornamen[nr1] + '@testkandidaat.be';
+document.getElementById('dag').value = nr6;
+document.getElementById('maand').value = nr7;
+document.getElementById('jaar').value = nr8;
+document.getElementById("privacy").checked = true;
